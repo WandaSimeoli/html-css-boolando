@@ -9,9 +9,11 @@ body {
     border: 1px dashed black;
 } */
 /* Inizio Header */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+header {
+    position: fixed;
+   z-index: 1;
+   top: 0;
+   width: 100%;
 }
 .flex {
     display: flex;
@@ -34,10 +36,13 @@ body {
 .col3-1 {
     text-align: center;
 }
-header {
-    margin-bottom: 30px;
-}
 /* Fine Header */
+/* Inizio Main */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
 .col1-2, .col2-2, .col3-2 {
     width: calc((100% / 3) - 40px);
 }
@@ -105,6 +110,8 @@ header {
 .row2 {
     margin-bottom: 30px;
 }
+/* Fine Main */
+/* Inizio Footer */
 footer {
     background-color: black;
     color: white;
