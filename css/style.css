@@ -5,9 +5,9 @@ body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-.debug {
+/* .debug {
     border: 1px dashed black;
-}
+} */
 /* Inizio Header */
 .container {
     max-width: 1200px;
@@ -18,8 +18,8 @@ body {
 }
 .row1 > *{
     background-color: #FF6900;
-    align-items: center;
-    justify-content: center;
+
+    justify-content: space-around;
     padding: 15px;
     color: white;
     width: calc(100% / 3);
@@ -47,6 +47,16 @@ header {
 }
 .product {
   width: 100%;
+}
+.second-image {
+    display: none;
+    width: 100%;
+}
+ .label:hover .second-image{
+    display: block;
+}
+.label:hover .product {
+    display: none;
 }
 .label {
     position: relative;
@@ -79,6 +89,7 @@ header {
     color: black;
     background-color: white;
     font-size: 30px;
+    padding: 10px;
     position: absolute;
     right: 0;
     top: 10px;
