@@ -94,3 +94,17 @@ header {
 .row2 {
     margin-bottom: 30px;
 }
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+.row3 {
+    justify-content: space-around;
+}
+ .col1-3 > * {
+    padding: 10px;
+}
+.col2-3 > * {
+    padding: 10px;
+}
