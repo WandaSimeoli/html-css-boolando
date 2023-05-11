@@ -15,3 +15,27 @@ body {
 .flex {
     display: flex;
 }
+.row1 > *{
+    background-color: #FF6900;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: white;
+    width: calc(100% / 3);
+}
+.logo {
+    width: 20%;
+   padding-left: 100px;
+}
+.col1 {
+    text-align: center;
+}
+.col3 {
+    text-align: center;
+}
+header {
+    margin-bottom: 20px;
+}
+.col {
+    margin-bottom: 10px;
+}
